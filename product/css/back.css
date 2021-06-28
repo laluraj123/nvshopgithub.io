@@ -1,0 +1,7 @@
+#a1{
+				float:left; background-color: #ffffc7; padding-left: 30px; border-radius: 15px;
+			font-size: 25px; text-decoration: none;color:black; padding-right: 30px;
+			position: absolute;
+		}
+#a1:hover{
+			color: orange;

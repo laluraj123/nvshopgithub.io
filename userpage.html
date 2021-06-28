@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>user Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="userDashboard.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<?php
+include('header.php');
+?>
+<center>
+	<h1>Welcome to Admin Dashboard</h1>
+</center>
+
+<div id="container">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">User <i class="fa fa-caret-down" style="font-size:25px;"></i></a>
+            <!-- First Tier Drop Down -->
+            <ul>
+                <li><a href="#">Add</a></li>
+                <li><a href="#">View</a></li>
+                <li><a href="#">Delete</a></li>
+                <li><a href="#">Update</a></li>
+            </ul>        
+            </li>
+<!-- second tier drop down -->
+             <li><a href="#">Product  <i class="fa fa-caret-down" style="font-size:25px;"></i></a>
+
+            <ul>
+                <li><a href="#">Add</a></li>
+                <li><a href="#">View</a></li>
+                <li><a href="#">Delete</a></li>
+                <li><a href="#">Update</a></li>
+            </ul>        
+            </li>
+
+            <!-- third tier drop down -->
+             <li><a href="#">Seller  <i class="fa fa-caret-down" style="font-size:25px;"></i></a>
+
+            <ul>
+                <li><a href="#">Add</a></li>
+                <li><a href="#">View</a></li>
+                <li><a href="#">Delete</a></li>
+                <li><a href="#">Update</a></li>
+            </ul>        
+            </li>
+          
+          
+            <li><a href="#">Log Out</a></li>
+        </ul>
+    </nav
+
+<?php
+include('footer.php');
+?>
+</body>
+</html>

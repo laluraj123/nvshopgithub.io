@@ -1,0 +1,81 @@
+/*#anchor1{
+	float:right;
+	font-size: 25px;
+	text-decoration: none;
+	color:blue;
+	padding-right: 30px;
+}
+#anchor1:hover{
+	color: darkblue;
+}*/
+
+
+body{ margin: 2%; background-color: white;}
+
+	.loginh1{
+		color: #ffffc7;
+	}
+
+	.title{ color: white; text-shadow: 3px 5px 3px black; }
+
+	.box{ height: 500px; width: 100%; background-color:white; margin-top: 20px; }
+	
+	.boximg{ height: 500px; width: 60%; float: left; }
+	
+	.loginform{ height: 500px; width: 40%; background-color: #325288; float: right; text-align: center;}
+	.input{ height:40px; font-size: 15px; width:80%; text-align:center; margin:20px 0px 0px 40px;
+	 outline:none; border-bottom:4px solid white; background-color: transparent; color: white;
+	  border-top: none; border-right: none;  border-left: none;}
+	::placeholder{ color: white; }
+
+	.loginbtn{ height: 30px; width: 
+				156px; border-radius: 10px; 
+				outline: none; border:none; 
+				background-color: black; 
+				color: white; font-size: 15px;
+		 		margin:30px 0px 0px 40px;}
+	#resetbutton{height: 30px; width: 156px; border-radius: 10px; outline: none;
+	 border:none; background-color: black; color: white; font-size: 15px; margin:30px 0px 0px 40px;}
+	/* #newbtn { height: 30px; width: 80%; border-radius: 10px; outline: none; border:none;
+	 background-color: white; color: red; font-size: 18px; margin:50px 0px 0px 40px; 
+	 text-decoration:blink;}
+	 */
+	 #newbtn{ font-weight: bold; line-height: 30px; width: 80%;
+	  border: 2px; background-color: #white;  }
+	  #nudiv{
+	  	border: 2px solid #ffffc7; height: 30px; margin-top: 30px; width: 80%;margin-left: 70px;
+	  	background-color: white; border-radius: 10px; color: #325288;
+	  }
+	
+	a{ color: red; text-decoration: none;}
+
+	
+
+/* mobile */
+@media (max-width:768px) and (min-width: 0px){
+ 
+	.header{ height: 100px; width:100%; background-color: cyan; text-align: center; 
+		line-height: 100px; font-size: 1.5rem; }
+	.title{ color: black; font-size: 1.5rem; text-shadow: none; }
+	.boximg{ display: none; }
+	.box{width:100%;}
+	.loginform{ height: 500px; width: 100%; text-align: center; background-color: cyan }
+	::placeholder{ color: black; }
+
+.input{ border-bottom:4px solid black; }
+
+}
+
+/* tablets */
+@media (max-width:1000px) and (min-width: 768px){
+ 
+	.header{ height: 100px; width:100%; background-color: yellow; text-align: center; line-height: 100px; }
+	.title{ color: black; font-size: 2rem; text-shadow:none; }
+	.boximg{ display: none; }
+	.box{width:100%;}
+	.loginform{ height: 500px; width: 100%; text-align: center; background-color: yellow; }
+	::placeholder{ color: black; }
+.footer{ height:120px; width: 100%; }
+.footerh2{ font-size: 20px; color: yellow; }
+.input{ border-bottom:4px solid black; }
+}
